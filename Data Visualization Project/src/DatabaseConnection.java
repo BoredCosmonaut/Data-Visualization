@@ -3,7 +3,8 @@ import java.sql.*;
 public class DatabaseConnection {
     private final String url = "jdbc:postgresql://localhost/AutoDag";
     private final String user = "postgres";
-    private final String password = "12345";
+    //Your password here
+    private final String password = "xxxxxx";
 
     //Connection to the database
     public Connection connect() { // Method for establishing connection to the database, returns a database object
